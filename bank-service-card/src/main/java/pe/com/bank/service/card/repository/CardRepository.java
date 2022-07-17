@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import pe.com.bank.service.card.entity.CardEntity;
 
 @Repository
-public interface CardRepository extends ReactiveCrudRepository<CardEntity,Integer> {
+public interface CardRepository extends ReactiveCrudRepository<CardEntity,String> {
 }

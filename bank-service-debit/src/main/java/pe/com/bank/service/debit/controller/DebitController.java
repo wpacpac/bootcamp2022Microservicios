@@ -1,18 +1,10 @@
-package pe.com.bank.service.card.controller;
+package pe.com.bank.service.debit.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-import pe.com.bank.service.card.entity.CardEntity;
-import pe.com.bank.service.card.service.CardService;
-import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
-
-import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/api/card")
-public class CardController {
-    @Autowired
+@RequestMapping("/api/debit")
+public class DebitController {
+	@Autowired
     private CardService cardService;
 
     @PostMapping("/save")

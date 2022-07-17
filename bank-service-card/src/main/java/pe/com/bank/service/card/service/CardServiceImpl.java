@@ -20,7 +20,7 @@ public class CardServiceImpl implements CardService {
     }
 
     @Override
-    public Mono<CardEntity> findByIdCard(Integer id) {
+    public Mono<CardEntity> findByIdCard(String id) {
         return cardRepository.findById(id);
     }
 
@@ -30,7 +30,7 @@ public class CardServiceImpl implements CardService {
     }
 
     @Override
-    public Mono<Void> deleteByCard(Integer id) {
+    public Mono<Void> deleteByIdCard(String id) {
         return cardRepository.deleteById(id);
     }
 

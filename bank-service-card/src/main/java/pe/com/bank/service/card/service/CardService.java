@@ -7,11 +7,11 @@ import reactor.core.publisher.Mono;
 public interface CardService {
     Mono<CardEntity> saveCard(CardEntity cardEntity);
 
-    Mono<CardEntity> findByIdCard(Integer id);
+    Mono<CardEntity> findByIdCard(String id);
 
     Mono<CardEntity> updateCard(CardEntity cardEntity);
 
-    Mono<Void> deleteByCard(Integer id);
+    Mono<Void> deleteByIdCard(String id);
 
     Flux<CardEntity> findAllCard();
 }
