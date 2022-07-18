@@ -5,7 +5,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 public interface DebitService {
-	Mono<DebitEntity> saveDebit(DebitEntity debitEntity);
+    Mono<DebitEntity> saveDebit(DebitEntity debitEntity);
 
     Mono<DebitEntity> findByIdDebit(String id);
 

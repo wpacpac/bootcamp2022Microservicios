@@ -20,7 +20,7 @@ import reactor.core.publisher.Mono;
 @RestController
 @RequestMapping("/api/debit")
 public class DebitController {
-	@Autowired
+    @Autowired
     private DebitService debitService;
 
     @PostMapping("/save")

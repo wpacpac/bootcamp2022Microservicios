@@ -9,39 +9,33 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Service
-public class DebitServiceImpl implements DebitService
-{
-	@Autowired
+public class DebitServiceImpl implements DebitService {
+    @Autowired
     private DebitRepository debitRepository;
-	
-	@Override
-	public Mono<DebitEntity> saveDebit(DebitEntity debitEntity)
-	{
-		return debitRepository.save(debitEntity);
-	}
-	
-	@Override
-    public Mono<DebitEntity> findByIdDebit(String id)
-    {
-		return debitRepository.findById(id);
+
+    @Override
+    public Mono<DebitEntity> saveDebit(DebitEntity debitEntity) {
+        return debitRepository.save(debitEntity);
     }
-	
-	@Override
-    public Mono<DebitEntity> updateDebit(DebitEntity debitEntity)
-    {
-		return debitRepository.save(debitEntity);
+
+    @Override
+    public Mono<DebitEntity> findByIdDebit(String id) {
+        return debitRepository.findById(id);
     }
-	
-	@Override
-    public Mono<Void> deleteByIdDebit(String id)
-    {
-		return debitRepository.deleteById(id);
+
+    @Override
+    public Mono<DebitEntity> updateDebit(DebitEntity debitEntity) {
+        return debitRepository.save(debitEntity);
     }
-	
-	@Override
-    public Flux<DebitEntity> findAllDebit()
-	{
-		return debitRepository.findAll();
-	}
+
+    @Override
+    public Mono<Void> deleteByIdDebit(String id) {
+        return debitRepository.deleteById(id);
+    }
+
+    @Override
+    public Flux<DebitEntity> findAllDebit() {
+        return debitRepository.findAll();
+    }
 
 }

@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Builder
 @Document
-public class DebitEntity 
+public class DebitEntity
 {
 	@Id
 	private String id;
@@ -21,9 +21,9 @@ public class DebitEntity
 	private Integer maxLimOfMonthlyMovemFreeOfCommissions;
 	private Double costPerMovement;
 	private Double monthlyMaintenanceCost;
-	private Double balance; //saldo
-	private String debitType; /*FIX_TERM, SAVINGS, CURRENT_ACCOUNT*/
-	private String idClient;//con la ayuda de este atributo jalo el tipo de cliente de la coleccion Client
-	private String idClient_titular; //0 o mas
-	private String idClient_authorizedSignature; // 0 o mas	
+	private Double balance;
+	private String debitType;
+	private String idClient;
+	private String idClientTitular;
+	private String idClientAuthorizedSignature;
 }

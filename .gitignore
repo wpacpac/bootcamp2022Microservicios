@@ -1,0 +1,16 @@
+# Eclipse
+RemoteSystemsTempFiles/
+.metadata/
+.classpath
+.project
+.settings/
+**/.classpath
+**/.project
+**/.settings/
+# Maven
+log/
+target/
+**/target/
+#otros
+*.log
+.diff
