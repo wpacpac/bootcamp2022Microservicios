@@ -20,6 +20,6 @@ public class CardEntity {
     private Integer remainingCredit;
     private String idClient;
     private String cardNumber;
-    private String typeCredit;
+    private String clientType;
 
 }

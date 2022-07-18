@@ -23,5 +23,5 @@ public class ClientEntity {
 	private Date birthDate;
 	private Long cellNumber;
 	private String address;
-	private String typeClient;
+	private String clientType; //PERSON, ENTERPRISE
 }

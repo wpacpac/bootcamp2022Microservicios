@@ -22,7 +22,8 @@ public class DebitEntity
 	private Double costPerMovement;
 	private Double monthlyMaintenanceCost;
 	private Double balance; //saldo
-	private String idClient;
-	private String idClient_titular; //1 o mas
+	private String debitType; /*FIX_TERM, SAVINGS, CURRENT_ACCOUNT*/
+	private String idClient;//con la ayuda de este atributo jalo el tipo de cliente de la coleccion Client
+	private String idClient_titular; //0 o mas
 	private String idClient_authorizedSignature; // 0 o mas	
 }
