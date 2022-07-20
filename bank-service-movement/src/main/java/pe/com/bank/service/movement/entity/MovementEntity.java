@@ -14,12 +14,16 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Builder
-@Document
+@Document(collection = "movement")
 public class MovementEntity {
+
 	@Id
 	private String id;
-	private Date MovementDate;
-	private String OperationType;
+	private Date movementDate;
+	private String operationType;
 	private Double amount;
 	private String accountNumber;
+	private Integer idAccount;
+	private Integer accountNumberReference;
+
 }

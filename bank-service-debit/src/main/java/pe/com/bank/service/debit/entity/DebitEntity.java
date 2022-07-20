@@ -8,22 +8,27 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Builder
-@Document
+@Document(collection = "debit_account")
 public class DebitEntity
 {
 	@Id
 	private String id;
 	private String accountNumber;
-	private Integer maxLimOfMonthlyMovemFreeOfCommissions;
+	private Integer limitMovement;
 	private Double costPerMovement;
+	private Double commission;
+	private Date movementDate;
 	private Double monthlyMaintenanceCost;
 	private Double balance;
-	private String debitType;
+	private String accountType;
+	private Boolean accountState;
+	private String operationType;
+	private Integer idCard;
 	private String idClient;
-	private String idClientTitular;
-	private String idClientAuthorizedSignature;
 }

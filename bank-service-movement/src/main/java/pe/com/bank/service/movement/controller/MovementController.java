@@ -3,6 +3,7 @@ package pe.com.bank.service.movement.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,6 +19,7 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequestMapping("/api/movement")
+@RefreshScope
 public class MovementController 
 {
 	@Autowired

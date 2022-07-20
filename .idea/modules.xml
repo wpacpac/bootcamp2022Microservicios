@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/bank-cloud-config-server/bank-cloud-config-server.iml" filepath="$PROJECT_DIR$/bank-cloud-config-server/bank-cloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-service-card/bank-service-card.iml" filepath="$PROJECT_DIR$/bank-service-card/bank-service-card.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-service-client/bank-service-client.iml" filepath="$PROJECT_DIR$/bank-service-client/bank-service-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-service-credit/bank-service-credit.iml" filepath="$PROJECT_DIR$/bank-service-credit/bank-service-credit.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-service-debit/bank-service-debit.iml" filepath="$PROJECT_DIR$/bank-service-debit/bank-service-debit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank-service-eureka-server/bank-service-eureka-server.iml" filepath="$PROJECT_DIR$/bank-service-eureka-server/bank-service-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-service-movement/bank-service-movement.iml" filepath="$PROJECT_DIR$/bank-service-movement/bank-service-movement.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bootcamp2022Microservicios.iml" filepath="$PROJECT_DIR$/.idea/bootcamp2022Microservicios.iml" />
     </modules>
