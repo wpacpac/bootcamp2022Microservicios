@@ -4,53 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9b3e840-ff80-48de-9638-b823f5699afa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05c8dd5e1f1894f6511288e6c49cf846eae745e6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11fe2482ffe3c749f05e4944a9b557b8aaf6f2dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2ea92ae0a8a1a69dd669a4ab9bbda15b4155586d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32c256bb7094d025e176093e4667e572b87242f4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35886493eaab631dd7042465b98402d125655329" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d490dd3f6d123e4722bd5ac90bdaf5357ffde57" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62096b295f26b4f59b4e3271aa60559796b31da3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6eb2a70c7a96274dfe6d0806d6f5258fc468be61" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7520f955f1e453387bd13d3dd371f4b1cfd141de" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75777cefeaef6dc2a8fa3699cc4984da1e5cd11f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/7731a8f4ac89c1b8ef0c2d0f1d498123af373f12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b546c77e1360bde16946325dad568faebbeeff8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87992235db818a7258196e28f7ab5dd040d8d591" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92c20dcad806d110f5da3426259e7610c73dedc9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a0035866e7f4a8e3d22c90b7d309f8d11ec4e027" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad280da1b65bb774201938f1efceeecbc4a104c3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b21dd684743cae9e6d4d8f881cb18d5d91a9b881" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7dd225064938b07e942d1792752b422d5ed2058" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b98b0dcef72c00bdeddd6e2b6e4a54125772be6d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf686704ff1a4a0f3e6f5837aa9260a92c2ce286" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d933505b4bdc85374f044e18d8241d7ce481f1e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbd84188abcf29a043c2cdb24ea54c929d516648" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbdf9152234eabbc7a7f74a3a9e8b1ddc5d60ef7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec84a615dddbcbc11ae19b14b5aa7bbb29f4615c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-card/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-card/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-credit/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-credit/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-debit/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/controller/DebitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/controller/DebitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/dto/OperationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/dto/OperationDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/entity/DebitEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/entity/DebitEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/repository/DebitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/repository/DebitRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/service/DebitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/service/DebitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/service/DebitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/service/DebitServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-movement/src/main/java/pe/com/bank/service/movement/controller/MovementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-movement/src/main/java/pe/com/bank/service/movement/controller/MovementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-movement/src/main/java/pe/com/bank/service/movement/entity/MovementEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-movement/src/main/java/pe/com/bank/service/movement/entity/MovementEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/config.properties" afterDir="false" />
-    </list>
+    <list default="true" id="c9b3e840-ff80-48de-9638-b823f5699afa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/wpacpach/3D Objects/proyecto/bootcamp2022Microservicios/bank-service-movement/src/main/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wpacpach/3D Objects/proyecto/bootcamp2022Microservicios/bank-service-movement/src/main/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wpacpach\3D Objects\proyecto\bootcamp2022Microservicios\bank-service-movement\src\main\resources" />
@@ -105,7 +59,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
