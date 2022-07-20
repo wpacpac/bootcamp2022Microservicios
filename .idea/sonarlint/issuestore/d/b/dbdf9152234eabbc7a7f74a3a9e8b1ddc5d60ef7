@@ -1,0 +1,7 @@
+
+l	java:S116"WRename this field "MovementDate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Öó»
+r	java:S116"XRename this field "OperationType" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çíè“ùÿÿÿÿ
+e
+java:S1128"CRemove this unused import 'org.springframework.data.annotation.Id'.(áŠ¿¸ıÿÿÿÿ8±µƒø 0
+u
+java:S1128"SRemove this unused import 'org.springframework.data.mongodb.core.mapping.Document'.(ú™ïÊúÿÿÿÿ8Çƒø 0
