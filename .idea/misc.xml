@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/bank-service-movement/pom.xml" />
         <option value="$PROJECT_DIR$/bank-cloud-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/bank-service-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-service-card/pom.xml" />
       </list>
     </option>
   </component>

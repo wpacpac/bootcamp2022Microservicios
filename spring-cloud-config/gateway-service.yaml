@@ -1,5 +1,6 @@
 server:
   port: 8090
+
 eureka:
   client:
     fetch-registry: true
@@ -8,6 +9,7 @@ eureka:
       default-zone: http://localhost:8761/eureka
   instance:
     hostname: localhost
+
 spring:
   cloud:
     gateway:
@@ -15,15 +17,23 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: user-service
-          uri: lb://user-service
-          predicate:
-            - path: /api/**
-        - id: car-service
-            uri: lb://car-service
-            predicate:
-              - path: /api/**
-        - id: bike-service
-            uri: lb://bike-service
-            predicate:
-              - path: /api/**
+        - id: card-service
+          uri: lb://card-service
+          predicates:
+            - Path=/api/card/**
+        - id: client-service
+          uri: lb://client-service
+          predicates:
+            - Path=/api/client/**
+        - id: credit-service
+          uri: lb://credit-service
+          predicates:
+            - Path=/api/credit/**
+        - id: debit-service
+          uri: lb://debit-service
+          predicates:
+              - Path=/api/debit/**
+        - id: movement-service
+           uri: lb://movement-service
+           predicates:
+              - Path=/api/movement/**

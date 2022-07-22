@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bank-cloud-config-server/bank-cloud-config-server.iml" filepath="$PROJECT_DIR$/bank-cloud-config-server/bank-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank-service-card/bank-service-card.iml" filepath="$PROJECT_DIR$/bank-service-card/bank-service-card.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-service-client/bank-service-client.iml" filepath="$PROJECT_DIR$/bank-service-client/bank-service-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-service-credit/bank-service-credit.iml" filepath="$PROJECT_DIR$/bank-service-credit/bank-service-credit.iml" />
       <module fileurl="file://$PROJECT_DIR$/bank-service-debit/bank-service-debit.iml" filepath="$PROJECT_DIR$/bank-service-debit/bank-service-debit.iml" />

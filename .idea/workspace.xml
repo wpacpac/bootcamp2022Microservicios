@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b43facc-71a0-47d9-bcf1-5afa7f31ffad" name="Changes" comment="add config eureka-gateway-config">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/card-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/card-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/client-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/client-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/credit-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/credit-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/debit-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/debit-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/movement-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/movement-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service-card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-card/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/gateway-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="07d4782d-e39c-4921-8102-a6b5ce5bcbca" />
+        <option name="url" value="https://github.com/wpacpac/bootcamp2022Microservicios.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,10 +49,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/WILYP/Documents/bootcamp/bootcamp2022Microservicios/bank-service-card",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "5658506573a0c5ed17087c33e2e4e008"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -54,6 +68,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BankServiceEurekaServerApplication">
+    <configuration name="BankServiceCardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bank-service-card" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pe.com.bank.service.card.BankServiceCardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BankServiceClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank-service-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pe.com.bank.service.client.BankServiceClientApplication" />
@@ -112,7 +133,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658508704172</updated>
-      <workItem from="1658508707815" duration="1897000" />
+      <workItem from="1658508707815" duration="2103000" />
+      <workItem from="1658510867768" duration="2119000" />
     </task>
     <task id="LOCAL-00001" summary="add config eureka-gateway-config">
       <created>1658510468592</created>

@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/bank-cloud-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bank-cloud-config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-service-card/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bank-service-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bank-service-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bank-service-credit/src/main/java" charset="UTF-8" />
