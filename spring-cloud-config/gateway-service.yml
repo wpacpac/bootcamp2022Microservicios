@@ -32,8 +32,8 @@ spring:
         - id: debit-service
           uri: lb://debit-service
           predicates:
-              - Path=/api/debit/**
+            - Path=/api/debit/**
         - id: movement-service
-           uri: lb://movement-service
-           predicates:
-              - Path=/api/movement/**
+          uri: lb://movement-service
+          predicates:
+            - Path=/api/movement/**
