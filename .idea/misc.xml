@@ -3,15 +3,20 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/bank-service-card/pom.xml" />
         <option value="$PROJECT_DIR$/bank-service-debit/pom.xml" />
         <option value="$PROJECT_DIR$/bank-service-client/pom.xml" />
         <option value="$PROJECT_DIR$/bank-service-credit/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-service-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/bank-service-movement/pom.xml" />
         <option value="$PROJECT_DIR$/bank-cloud-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/bank-service-eureka-server/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" default="true" project-jdk-name="16" project-jdk-type="JavaSDK" />
+  <component name="SwUserDefinedSpecifications">
+    <option name="specTypeByUrl">
+      <map />
+    </option>
+  </component>
 </project>

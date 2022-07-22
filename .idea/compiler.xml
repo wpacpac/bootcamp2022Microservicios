@@ -6,33 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bank-service-card" />
         <module name="bank-service-movement" />
         <module name="bank-cloud-config-server" />
         <module name="bank-service-credit" />
         <module name="bank-service-client" />
         <module name="bank-service-debit" />
+        <module name="bank-service-gateway" />
         <module name="bank-service-eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bank-cloud-config-server" target="11" />
-      <module name="bank-service-card" target="11" />
       <module name="bank-service-client" target="11" />
       <module name="bank-service-credit" target="11" />
       <module name="bank-service-debit" target="11" />
       <module name="bank-service-eureka-server" target="11" />
+      <module name="bank-service-gateway" target="11" />
       <module name="bank-service-movement" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bank-cloud-config-server" options="-parameters" />
-      <module name="bank-service-card" options="-parameters" />
       <module name="bank-service-client" options="-parameters" />
       <module name="bank-service-credit" options="-parameters" />
       <module name="bank-service-debit" options="-parameters" />
       <module name="bank-service-eureka-server" options="-parameters" />
+      <module name="bank-service-gateway" options="-parameters" />
       <module name="bank-service-movement" options="-parameters" />
     </option>
   </component>
