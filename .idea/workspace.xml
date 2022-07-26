@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b43facc-71a0-47d9-bcf1-5afa7f31ffad" name="Changes" comment="add config eureka-gateway-config">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-cloud-config-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-card/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-client/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-credit/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-debit/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-eureka-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-movement/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-service-card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-card/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config/gateway-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +46,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/WILYP/Documents/bootcamp/bootcamp2022Microservicios/bank-service-card",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "5658506573a0c5ed17087c33e2e4e008"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/WILYP/Documents/bootcamp/bootcamp2022Microservicios/bank-service-client&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b328f6dedd6c275d364c67336eaaba21&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-client" />
+      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-movement" />
+      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-gateway" />
+      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-eureka-server" />
+      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-debit" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -134,7 +150,10 @@
       <option name="presentableId" value="Default" />
       <updated>1658508704172</updated>
       <workItem from="1658508707815" duration="2103000" />
-      <workItem from="1658510867768" duration="2119000" />
+      <workItem from="1658510867768" duration="5412000" />
+      <workItem from="1658523465344" duration="28000" />
+      <workItem from="1658534317657" duration="313000" />
+      <workItem from="1658707531129" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="add config eureka-gateway-config">
       <created>1658510468592</created>
@@ -143,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658510468592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add config eureka-gateway-config">
+      <created>1658518767490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658518767490</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add config eureka-gateway-config">
+      <created>1658519309782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658519309782</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
