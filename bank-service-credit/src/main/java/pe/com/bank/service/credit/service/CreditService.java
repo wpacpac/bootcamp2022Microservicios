@@ -1,6 +1,7 @@
 package pe.com.bank.service.credit.service;
 
 
+import org.springframework.http.ResponseEntity;
 import pe.com.bank.service.credit.entity.CreditEntity;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -8,7 +9,7 @@ import reactor.core.publisher.Mono;
 public interface CreditService {
 
 
-	public Mono<CreditEntity> saveCredit(CreditEntity CreditEntity);
+	public ResponseEntity<Mono<CreditEntity>> saveCredit(CreditEntity CreditEntity);
 
 	public Mono<CreditEntity> findByIdCredit(String id);
 

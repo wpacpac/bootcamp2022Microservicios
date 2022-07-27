@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b43facc-71a0-47d9-bcf1-5afa7f31ffad" name="Changes" comment="add config eureka-gateway-config">
-      <change afterPath="$PROJECT_DIR$/bank-cloud-config-server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service-card/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service-client/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service-credit/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service-debit/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service-eureka-server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service-gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service-movement/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-credit/src/main/java/pe/com/bank/service/credit/dto/ClientEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-credit/src/main/java/pe/com/bank/service/credit/service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/dto/ClientEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/entity/DebitFeaturesEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service-credit/src/main/java/pe/com/bank/service/credit/entity/CreditEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-credit/src/main/java/pe/com/bank/service/credit/entity/CreditEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service-credit/src/main/java/pe/com/bank/service/credit/repository/CreditRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-credit/src/main/java/pe/com/bank/service/credit/repository/CreditRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service-credit/src/main/java/pe/com/bank/service/credit/service/CreditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-credit/src/main/java/pe/com/bank/service/credit/service/CreditService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service-credit/src/main/java/pe/com/bank/service/credit/service/CreditServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-credit/src/main/java/pe/com/bank/service/credit/service/CreditServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service-credit/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-credit/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/entity/DebitEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/entity/DebitEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/repository/DebitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/repository/DebitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/service/DebitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/service/DebitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/service/DebitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/src/main/java/pe/com/bank/service/debit/service/DebitServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service-debit/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service-debit/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,34 +54,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/WILYP/Documents/bootcamp/bootcamp2022Microservicios/bank-service-client&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b328f6dedd6c275d364c67336eaaba21&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/WILYP/Documents/bootcamp/bootcamp2022Microservicios/bank-service-debit/src/main/java/pe/com/bank/service/debit/service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "b328f6dedd6c275d364c67336eaaba21"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-client" />
-      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-movement" />
-      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-gateway" />
-      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-eureka-server" />
-      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-debit" />
+      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-debit\src\main\java\pe\com\bank\service\debit\service" />
+      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-debit\src\main\java\pe\com\bank\service\debit\dto" />
+      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-debit\src\main\java\pe\com\bank\service\debit\entity" />
+      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-credit\src\main\java\pe\com\bank\service\credit\dto" />
+      <recent name="C:\Users\WILYP\Documents\bootcamp\bootcamp2022Microservicios\bank-service-credit\src\main\java\pe\com\bank\service\credit\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -154,6 +162,8 @@
       <workItem from="1658523465344" duration="28000" />
       <workItem from="1658534317657" duration="313000" />
       <workItem from="1658707531129" duration="29000" />
+      <workItem from="1658876096986" duration="2056000" />
+      <workItem from="1658935609335" duration="1351000" />
     </task>
     <task id="LOCAL-00001" summary="add config eureka-gateway-config">
       <created>1658510468592</created>

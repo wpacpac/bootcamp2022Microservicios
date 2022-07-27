@@ -19,16 +19,10 @@ public class DebitEntity
 {
 	@Id
 	private String id;
-	private String accountNumber;
-	private Integer limitMovement;
-	private Double costPerMovement;
-	private Double commission;
-	private Date movementDate;
-	private Double monthlyMaintenanceCost;
 	private Double balance;
-	private String accountType;
-	private Boolean accountState;
-	private String operationType;
-	private Integer idCard;
 	private String idClient;
+	private String accountNumber;
+	private String cardNumber;
+	private Integer cardAssociationOrder;
+	private String debitType;
 }
